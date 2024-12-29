@@ -1,0 +1,124 @@
+/* General Profile Container */
+.container.profile-container {
+    margin-top: 20px;
+  }
+  
+  /* Profile Header */
+  .profile-header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Profile Card Styling */
+  .profile-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  /* Small Button Styling */
+  .small-btn {
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: #007bff;
+    border: 1px solid #007bff;
+    transition: all 0.3s ease;
+  }
+  
+  .small-btn:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Masked Password Styling */
+  .text-muted {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  /* Styling for the small password input */
+  .small-input {
+    width: 100%;
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .small-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Add more margin to the button to separate it from the masked password */
+  .profile-card .form-row.mb-4 .col-lg-8 {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-card .form-row.mb-4 .col-lg-8 .small-btn {
+    margin-left: 20px; /* Increased space between the masked password and the button */
+  }
+  
+  /* Responsive for smaller screens */
+  @media (max-width: 767px) {
+    .profile-header {
+      font-size: 20px;
+    }
+  
+    .card-body {
+      padding: 15px;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .form-row label {
+      text-align: left;
+    }
+  
+    .small-btn {
+      padding: 4px 10px;
+      font-size: 11px;
+    }
+  
+    .small-input {
+      font-size: 12px;
+    }
+  }
+  /* Styling for the Cancel button */
+.btn-outline-secondary {
+    color: #6c757d;
+    border-color: #6c757d;
+    background-color: transparent;
+    font-size: 12px;
+    padding: 5px 12px;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #6c757d;
+    color: white;
+  }
+  
+  /* Add more margin to the Cancel button to separate it from the Save button */
+  .profile-card .form-row.mb-4 .col-lg-8 .btn-outline-secondary {
+    margin-left: 10px;
+  }
+  
+  /* Styling for error message */
+.text-danger {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
